@@ -217,3 +217,173 @@ transform: scale(1.2) rotate(5deg);
     font-family: 'Red Hat Text';
     color: gray;
 }
+/* =========================
+   MOBILE RESPONSIVE CLEAN FIX
+   ========================= */
+
+@media (max-width: 768px) {
+
+    /* منع أي خروج خارج الشاشة */
+    html, body {
+        overflow-x: hidden;
+    }
+
+    body {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 15px;
+        gap: 25px;
+        height: auto;
+    }
+
+    /* الكروت */
+    .main-card,
+    .Contacts-card,
+    .Skills-card {
+        width: 95%;
+        height: auto;
+        min-height: auto;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+
+    /* الهيدر */
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    /* اللوجو */
+    .logo {
+        margin: 0;
+        font-size: 38px;
+    }
+
+    /* القائمة */
+    ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* الصورة */
+    .image {
+        text-align: center;
+        margin: 0;
+    }
+
+    .image img {
+        width: 160px;
+        height: 160px;
+    }
+
+    /* النصوص */
+    .description {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .description div h2 {
+        font-size: 32px;
+    }
+
+    .description div p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 0 10px;
+    }
+
+    /* السوشيال */
+    .social-media {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .gmail-icon,
+    .telegram-icon,
+    .insta-icon,
+    .github-icon {
+        width: 90px;
+        height: 90px;
+    }
+
+    /* المهارات */
+    .Languages,
+    .Tools {
+        margin-left: 0;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .skill-images li {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .skill-images li img {
+        width: 55px;
+        height: 55px;
+    }
+
+    /* منع التمدد */
+    * {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+/* =========================
+   TABLET / MEDIUM SCREENS FIX
+   ========================= */
+
+@media (max-width: 1024px) and (min-width: 769px) {
+
+    body {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    .main-card,
+    .Contacts-card,
+    .Skills-card {
+        width: 90%;
+        height: auto;
+        min-height: auto;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .image {
+        text-align: center;
+        margin: 0;
+    }
+
+    .description {
+        margin: 30px auto;
+        text-align: center;
+        max-width: 700px;
+    }
+
+    .description div p {
+        width: 100%;
+    }
+
+    .image img {
+        width: 220px;
+        height: 220px;
+    }
+}
