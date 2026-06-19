@@ -1,0 +1,219 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    flex-wrap: wrap;
+    height: 100vh;
+    margin: 0px;
+    background: linear-gradient(to right , rgb(201, 172, 193) 5% , rgb(198, 80, 198));
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    gap: 60px;
+}
+.main-card
+ {
+    margin-top: 60px;
+    width: 87vw ;
+    height: 85vh ;
+    background-color:#eee;
+    border-radius: 40px;
+    box-shadow: 16px 15px 20px purple;
+}
+header {
+    padding: 40px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    text-decoration: none ;
+    color: rgb(62, 46, 46);
+    font-size: 25px;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+    display: flex ;
+    gap: 40px;
+    font-size: 20px;
+}
+li {
+    list-style: none ;
+    transition: 0,7s;
+}
+ul li:hover {
+    transform: scale(1.05);
+}
+ul li a:hover {
+    color: rgb(48, 46, 46);
+}
+.logo {
+    margin-top: 20px;
+    margin-left: 150px;
+    font-family: 'Bebas Neue';
+    font-size: 80px;
+    letter-spacing: 6px ;
+}
+
+.image img{
+    height: 260px ;
+    width: 260px ;
+    border-radius: 50%;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.4);
+    object-fit: cover;
+    border: 5px solid rgb(189, 186, 186);
+    transition: 0.5s;
+}
+.image img:hover {
+    transform: scale(1.05);
+}
+.image {
+    margin-right: 25px;
+    text-align: right;
+}
+
+.description {
+    margin-top: -300px ;
+    margin-left: 60px;
+    gap: 10px;
+}
+.description div h2 {
+    font-size: 70px ;
+    margin-top: 0px;
+    font-family: 'Red Hat Text';
+    color: gray;
+}
+.description p {
+    font-size: 20px;
+}
+.description div p {
+    width: 880px ;
+    font-family: 'Viga';
+    font-size: 25px ;
+    margin-top: -25px;
+}
+.description p {
+    font-size: 20px;
+}
+
+.github-icon {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+
+    background-image: url("../portfolio-image/github-icon.png");
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 50%; /* يخليها دائرة */
+    transition: 0.3s;
+}
+.github-icon:hover {
+    transform: scale(1.2) rotate(5deg);
+}
+h3 {
+    color: rgb(95, 94, 94);
+    font-size: 22px;
+}
+div div div {
+    display: flex ;
+    align-items: center ;
+    gap: 20px;
+}
+
+.Contacts-card {
+    width: 87vw ;
+    height: 85vh ;
+    background-color:#eee;
+    border-radius: 40px;
+    box-shadow: 16px 15px 20px purple;
+}
+.social-media .github-icon {
+    width: 150px ;
+    height: 150px;
+}
+.insta-icon {
+    width: 150px;
+    height: 150px; 
+    display: inline-block;
+    background-image: url("../portfolio-image/ig-instagram-icon.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px; /* يخليها دائرة */
+    transition: 0.3s;
+}
+
+.insta-icon:hover {
+    transform: scale(1.2) rotate(5deg);
+}
+
+.gmail-icon {
+    width: 170px ;
+    height: 170px ;
+    display: inline-block ;
+    background-image: url(../portfolio-image/gmail-icon.png);
+    background-size: cover ;
+    background-position: center ;
+    border-radius: 28px ;
+    transition: 0.3s ;
+}
+.gmail-icon:hover {
+    transform: scale(1.2) rotate(5deg) ;
+}
+
+.social-media {
+    margin-top: 85px;
+    flex-wrap: wrap;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    gap: 150px;
+}
+
+.telegram-icon {
+    width: 170px ;
+    height: 170px ;
+    display: inline-block ;
+    background-image: url(../portfolio-image/telegram-icon.png);
+    background-size: cover ;
+    background-position: center ;
+    border-radius: 28px ;
+    transition: 0.3s ;
+}
+.telegram-icon:hover {
+    transform: scale(1.2) rotate(5deg);
+}
+.Skills-card {
+    width: 87vw ;
+    height: 85vh ;
+    background-color:#eee;
+    border-radius: 40px;
+    box-shadow: 16px 15px 20px purple;
+}
+
+.Languages {
+    margin-top: -70px;
+    margin-left: 70px;
+    font-size: 40px ;
+    font-family: 'Red Hat Text';
+    color: gray;
+}
+.skill-images li img {
+    width: 70px ;
+    height: 70px ;
+    transition: 0.4s;
+}
+.skill-images li {
+    margin-left: 70px ;
+    padding: 0px ;
+}
+.skill-images li img:hover {
+transform: scale(1.2) rotate(5deg);
+}
+.Tools {
+    margin-left: 70px;
+    font-size: 40px ;
+    font-family: 'Red Hat Text';
+    color: gray;
+}
